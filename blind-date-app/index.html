@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blind Date App — Talk First, See Later | Blindrop</title>
+<meta name="description" content="Blindrop is a real blind date app: one anonymous conversation a day by text, voice, or video. No photos, no names — until you both choose to reveal.">
+<link rel="canonical" href="https://blindrop.app/blind-date-app/">
+<meta property="og:title" content="Blind Date App — Talk First, See Later | Blindrop">
+<meta property="og:description" content="One anonymous conversation a day. No photos, no names — until you both choose to reveal.">
+<meta property="og:image" content="https://blindrop.app/assets/blindrop-logo.png">
+<meta property="og:url" content="https://blindrop.app/blind-date-app/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blind Date App — Talk First, See Later | Blindrop">
+<meta name="twitter:description" content="One anonymous conversation a day. No photos, no names — until you both choose to reveal.">
+<meta name="twitter:image" content="https://blindrop.app/assets/blindrop-logo.png">
+<link rel="icon" type="image/png" href="/assets/blindrop-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800;900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a blind date app?",
+      "acceptedAnswer": { "@type": "Answer", "text": "A blind date app matches you with someone to talk to before you see what they look like — like a real-life blind date, but digital. Blindrop pairs you with one person a day for a timed conversation by text, voice, or video, with no photos shown until you both choose to reveal." }
+    },
+    {
+      "@type": "Question",
+      "name": "How does Blindrop's blind date work?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Every day at a set time, Blindrop pairs you with one real person nearby. You talk for a timed window with no photos or names visible. When time's up, you both privately choose Reveal or Pass — only if you both say Reveal do faces unlock." }
+    },
+    {
+      "@type": "Question",
+      "name": "Is Blindrop free to use?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Yes, Blindrop's core blind-date experience — one daily match and conversation — is free. Optional paid tiers add extra Drops and features." }
+    }
+  ]
+}
+</script>
+<style>
+  :root{ --ink:#0b0b0e; --surface:#17171d; --surface-2:#1f1f28; --line:#2a2a34; --red:#e31c2b; --red-bright:#ff3b46; --paper:#f2efe8; --muted:#94919d; }
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--ink); color:var(--paper); font-family:'Inter',system-ui,sans-serif; -webkit-font-smoothing:antialiased; }
+  h1,h2,.display{ font-family:'Unbounded',sans-serif; text-transform:uppercase; letter-spacing:-0.01em; line-height:1.05; margin:0; }
+  .mono{font-family:'JetBrains Mono',monospace;}
+  a{color:inherit;}
+  .wrap{max-width:820px;margin:0 auto;padding:0 24px;}
+  header{padding:24px 0;}
+  .brand{display:flex;align-items:center;gap:10px;text-decoration:none;width:fit-content;}
+  .brand img{width:30px;height:30px;}
+  .brand span{font-family:'Unbounded';font-weight:800;font-size:15px;text-transform:uppercase;}
+  .brand span em{font-style:normal;color:var(--red-bright);}
+  .eyebrow{ font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.14em; text-transform:uppercase; color:var(--red-bright); }
+  .hero{padding:40px 0 20px;}
+  .hero h1{font-size:clamp(30px,5vw,48px);font-weight:900;margin-top:14px;}
+  .hero p{color:var(--muted);font-size:17px;line-height:1.7;margin-top:18px;max-width:640px;}
+  .btn{ display:inline-flex;align-items:center;gap:8px;font-family:'Inter';font-weight:700;font-size:15px; padding:13px 26px;border-radius:100px;border:none;cursor:pointer;text-decoration:none; background:var(--red);color:#fff;margin-top:24px; }
+  .btn:hover{background:var(--red-bright);}
+  section{padding:32px 0;border-top:1px solid var(--line);}
+  section h2{font-size:24px;font-weight:800;margin-bottom:14px;}
+  section p{color:var(--muted);font-size:16px;line-height:1.75;margin:0 0 14px;}
+  .faq-item{margin-bottom:20px;}
+  .faq-item h3{font-family:'Inter';font-size:16px;font-weight:700;color:var(--paper);margin:0 0 6px;text-transform:none;}
+  .faq-item p{margin:0;}
+  .cross-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px;}
+  .cross-links a{ font-size:13px;color:var(--red-bright);text-decoration:none;border:1px solid var(--line);padding:8px 14px;border-radius:100px; }
+  footer{padding:30px 0;border-top:1px solid var(--line);color:var(--muted);font-size:12px;}
+  footer a{color:var(--muted);text-decoration:none;margin-right:16px;}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <a class="brand" href="/">
+    <img src="/assets/blindrop-logo.png" alt="Blindrop logo">
+    <span>Blind<em>rop</em></span>
+  </a>
+</header>
+
+<main class="wrap">
+  <section class="hero" style="border-top:none;padding-top:0;">
+    <div class="eyebrow">BLIND DATE APP</div>
+    <h1>A Blind Date App That Makes You Talk First</h1>
+    <p>Most dating apps show you a photo before you know a single thing about someone. Blindrop flips that: you get one blind date a day — a real, timed conversation by text, voice, or video — and no photos or names appear until you both decide there's something worth seeing.</p>
+    <a class="btn" href="https://play.google.com/store/apps/details?id=com.blindrop.app">Download Blindrop — Free</a>
+  </section>
+
+  <section>
+    <h2>What makes it an actual blind date</h2>
+    <p>A real blind date works because you're judging a person by how the conversation feels, not by a profile grid. Blindrop rebuilds that exact dynamic inside an app: once a day, you're paired with one real person in your city. You talk for a set window — no scrolling, no deck of other options waiting behind it.</p>
+    <p>When the timer ends, you and your match each privately choose Reveal or Pass. Faces and names only unlock if you <em>both</em> say Reveal. Say Pass, or your match does, and the whole conversation quietly disappears — no awkward unmatch, no lingering thread.</p>
+  </section>
+
+  <section>
+    <h2>Why blind-first beats photo-first</h2>
+    <p>Judging someone by a photo grid before you've exchanged a single word is exactly what makes swiping apps feel exhausting and shallow. A blind date app removes that shortcut. You end up talking to people you might have swiped past on looks alone — and skip the ones who look great on paper but have nothing to say.</p>
+  </section>
+
+  <section>
+    <h2>Frequently asked questions</h2>
+    <div class="faq-item">
+      <h3>What is a blind date app?</h3>
+      <p>A blind date app matches you with someone to talk to before you see what they look like — like a real-life blind date, but digital. Blindrop pairs you with one person a day for a timed conversation by text, voice, or video, with no photos shown until you both choose to reveal.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How does Blindrop's blind date work?</h3>
+      <p>Every day at a set time, Blindrop pairs you with one real person nearby. You talk for a timed window with no photos or names visible. When time's up, you both privately choose Reveal or Pass — only if you both say Reveal do faces unlock.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is Blindrop free to use?</h3>
+      <p>Yes, Blindrop's core blind-date experience — one daily match and conversation — is free. Optional paid tiers add extra Drops and features.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Related</h2>
+    <div class="cross-links">
+      <a href="/voice-call-dating-app/">Voice call dating app</a>
+      <a href="/dating-app-without-photos/">Dating app without photos</a>
+      <a href="/anonymous-dating-app-india/">Anonymous dating in India</a>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <a href="/">Home</a>
+  <a href="/privacy-policy/">Privacy Policy</a>
+  <a href="/terms-and-conditions/">Terms</a>
+  <span>© 2026 Blindrop</span>
+</footer>
+</body>
+</html>

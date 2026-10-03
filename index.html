@@ -477,7 +477,7 @@
         <div class="timer-row">
           <div>
             <div class="timer" id="countdown">00:00:00</div>
-            <div class="lbl">until pairing at 8:00 PM</div>
+            <div class="lbl">until pairing at 9:00 PM</div>
           </div>
         </div>
         <p class="drop-desc">One match. One ten-minute window. Two buttons at the end: <b style="color:var(--paper)">Reveal</b> or <b style="color:var(--paper)">Pass</b>. No seen receipts, no ghosting — the timer decides, not your nerves.</p>
@@ -504,7 +504,7 @@
       <div class="steps fade-up">
         <div class="step">
           <span class="num mono">01</span>
-          <span class="timebadge">8:00 PM</span>
+          <span class="timebadge">9:00 PM</span>
           <h3>Match</h3>
           <p>At a fixed time, everyone online in your city gets paired — one person, no deck to swipe through.</p>
         </div>
@@ -576,7 +576,7 @@
         </div>
         <div class="card">
           <div class="icon">🃏</div>
-          <h3>Themed Drops</h3>
+          <h3>Themed Drops <span style="font-family:'JetBrains Mono';font-size:11px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.08em;">— Coming Soon</span></h3>
           <p>Roast Battle. Would-You-Rather. Trivia Night. A new prompt every week so the conversation never starts cold.</p>
         </div>
         <div class="card">
@@ -723,11 +723,11 @@
 </footer>
 
 <script>
-  // Countdown to next 8:00 PM local Drop time
+  // Countdown to next 9:00 PM local Drop time (the app's 9:00 PM IST slot)
   function updateCountdown(){
     const now = new Date();
     const next = new Date();
-    next.setHours(20,0,0,0);
+    next.setHours(21,0,0,0);
     if(now >= next) next.setDate(next.getDate()+1);
     const diff = next - now;
     const h = String(Math.floor(diff/3600000)).padStart(2,'0');

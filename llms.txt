@@ -1,0 +1,24 @@
+# Blindrop
+
+> Blindrop is a blind dating app for Android (India, launching city by city). Once a day it pairs you with one real person for a short, timed conversation by text, voice call or blurred video. Photos and names stay hidden; when time is up both people privately choose Reveal or Pass, and profiles unlock only if both choose Reveal. Adults 18+ only.
+
+Key facts:
+- Free to join the daily Drop and talk to your match; optional coins and subscriptions add extras.
+- Video calls are live with the camera on, but blurred on the other person's screen until a mutual Reveal.
+- Safety: automated message moderation, one-tap report and block, selfie-verified badges.
+- Chats without a mutual Reveal are automatically deleted 24 hours after the Drop (reported chats are kept for safety review).
+- Get it on Google Play: https://play.google.com/store/apps/details?id=com.blindrop.app
+- Operated by Tharun Tech Solutions. Contact: support@blindrop.app
+
+## Pages
+- [Home](https://blindrop.app/): how a Drop works, the Reveal, features and FAQ
+- [Blind date app](https://blindrop.app/blind-date-app/)
+- [Voice call dating app](https://blindrop.app/voice-call-dating-app/)
+- [Anonymous dating app in India](https://blindrop.app/anonymous-dating-app-india/)
+- [Dating app without photos](https://blindrop.app/dating-app-without-photos/)
+
+## Policies
+- [Privacy Policy](https://blindrop.app/privacy-policy/)
+- [Terms & Conditions](https://blindrop.app/terms-and-conditions/)
+- [Child Safety Standards](https://blindrop.app/child-safety-standards/)
+- [Delete your account](https://blindrop.app/delete-account/)

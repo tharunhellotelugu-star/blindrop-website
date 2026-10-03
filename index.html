@@ -3,15 +3,98 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Blindrop — Real people. Real connections. No faces. Just vibes.</title>
-<meta name="description" content="Blindrop is the anti-swipe dating app. One blind, timed conversation a day. No photos, no names, no ghosting — until you both choose to reveal.">
-<meta property="og:title" content="Blindrop — Real people. Real connections. No faces. Just vibes.">
+<title>Blindrop — Blind Dating App: Talk First, Reveal Later</title>
+<meta name="description" content="Blindrop is the anti-swipe blind dating app. One blind, timed conversation a day by text, voice or blurred video. No photos, no names, no ghosting — until you both choose to reveal.">
+<link rel="canonical" href="https://blindrop.app/">
+<meta name="theme-color" content="#0b0b0e">
+<meta property="og:site_name" content="Blindrop">
+<meta property="og:title" content="Blindrop — Blind Dating App: Talk First, Reveal Later">
 <meta property="og:description" content="One blind, timed conversation a day. No photos, no names, no ghosting — until you both choose to reveal.">
-<meta property="og:image" content="assets/blindrop-logo.png">
+<meta property="og:url" content="https://blindrop.app/">
+<meta property="og:image" content="https://blindrop.app/assets/blindrop-logo.png">
+<meta property="og:image:alt" content="Blindrop logo">
 <meta property="og:type" content="website">
+<meta property="og:locale" content="en_IN">
 <meta name="author" content="Tharun Tech Solutions">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="assets/blindrop-logo.png">
+<meta name="twitter:title" content="Blindrop — Blind Dating App: Talk First, Reveal Later">
+<meta name="twitter:description" content="One blind, timed conversation a day. No photos, no names, no ghosting — until you both choose to reveal.">
+<meta name="twitter:image" content="https://blindrop.app/assets/blindrop-logo.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://blindrop.app/#org",
+      "name": "Blindrop",
+      "url": "https://blindrop.app/",
+      "logo": "https://blindrop.app/assets/blindrop-logo.png",
+      "email": "support@blindrop.app",
+      "parentOrganization": { "@type": "Organization", "name": "Tharun Tech Solutions", "url": "https://tharuntechsolutions.in/" }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://blindrop.app/#website",
+      "name": "Blindrop",
+      "url": "https://blindrop.app/",
+      "publisher": { "@id": "https://blindrop.app/#org" }
+    },
+    {
+      "@type": "MobileApplication",
+      "name": "Blindrop",
+      "operatingSystem": "ANDROID",
+      "applicationCategory": "LifestyleApplication",
+      "description": "A blind dating app: one anonymous, timed conversation a day by text, voice call or blurred video. Photos and names unlock only if both people choose Reveal.",
+      "url": "https://play.google.com/store/apps/details?id=com.blindrop.app",
+      "installUrl": "https://play.google.com/store/apps/details?id=com.blindrop.app",
+      "image": "https://blindrop.app/assets/blindrop-logo.png",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+      "publisher": { "@id": "https://blindrop.app/#org" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Blindrop?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Blindrop is a blind dating app. Once a day it pairs you with one real person for a short, timed conversation by text, voice call or blurred video. You can't see each other's photos or names. When time is up, you both privately choose Reveal or Pass, and profiles unlock only if you both choose Reveal." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Blindrop free?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Joining the daily Drop and talking to your match is free. Optional coins and subscriptions add extras such as more call time and extra features." }
+        },
+        {
+          "@type": "Question",
+          "name": "How does the video call stay anonymous?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Video Drops are real live calls with your camera on, but each person's video is heavily blurred on the other person's screen until you both choose Reveal." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Blindrop safe?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Blindrop is for adults 18 and over. Messages in a Drop are screened by automated moderation, you can report or block anyone with one tap, users can earn a selfie-verified badge, and your name and photos stay hidden unless you both reveal or become friends." }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens to the chat if we don't both reveal?",
+          "acceptedAnswer": { "@type": "Answer", "text": "If either person passes, the conversation ends and its messages are automatically deleted 24 hours after the Drop. Chats that were reported are kept for safety review." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Blindrop available?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Blindrop is available on Android through Google Play and is launching city by city in India. You are matched with people in your city, or nationwide when your city is still filling up." }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I delete my Blindrop account?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Open Settings in the app and tap Delete Account, or email support@blindrop.app. Full details are at blindrop.app/delete-account." }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="icon" type="image/png" href="assets/blindrop-logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -272,6 +355,20 @@
   .compare-row:not(:first-child) > div:nth-child(2){color:var(--muted-2);}
   .compare-row:not(:first-child) > div:nth-child(3){color:var(--red-bright);font-weight:600;}
 
+  /* ---------- FAQ ---------- */
+  .faq{max-width:760px;border-top:1px solid var(--line);}
+  .faq details{border-bottom:1px solid var(--line);}
+  .faq summary{
+    list-style:none;cursor:pointer;padding:22px 36px 22px 0;position:relative;
+    font-family:'Inter';font-weight:600;font-size:16.5px;color:var(--paper);
+  }
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary::after{content:"+";position:absolute;right:4px;top:18px;font-family:'JetBrains Mono';font-size:20px;color:var(--red-bright);transition:transform .2s;}
+  .faq details[open] summary::after{transform:rotate(45deg);}
+  .faq summary:focus-visible{outline:2px solid var(--red-bright);outline-offset:4px;border-radius:4px;}
+  .faq details p{margin:0 0 22px;color:var(--muted);font-size:15px;line-height:1.75;max-width:680px;}
+  .faq details p a{color:var(--red-bright);}
+
   /* ---------- CTA / FOOTER ---------- */
   .cta{padding:130px 0 100px;text-align:center;position:relative;}
   .cta::before{
@@ -305,7 +402,7 @@
   .foot-brand{display:flex;align-items:center;gap:10px;}
   .foot-brand img{width:26px;height:26px;}
   .foot-brand span{font-family:'JetBrains Mono';font-size:12px;color:var(--muted-2);}
-  .foot-links{display:flex;gap:26px;font-size:13px;color:var(--muted);}
+  .foot-links{display:flex;flex-wrap:wrap;gap:14px 26px;font-size:13px;color:var(--muted);}
   .foot-links a{text-decoration:none;}
   .foot-links a:hover{color:var(--paper);}
 
@@ -492,7 +589,7 @@
         <div class="icon">👥</div>
         <div>
           <h3>Squad Drops <span style="font-family:'JetBrains Mono';font-size:11px;color:var(--muted-2);text-transform:uppercase;letter-spacing:0.08em;">— Coming Soon</span></h3>
-          <p>Bring three friends and get matched against another group for a blind, group version of the whole format.</p>
+          <p>Team up with a friend and get matched against another pair for a blind 2v2 version of the whole format.</p>
         </div>
       </div>
     </div>
@@ -545,6 +642,46 @@
     </div>
   </section>
 
+  <!-- FAQ (kept in sync with the FAQPage JSON-LD in <head>) -->
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head fade-up">
+        <div class="eyebrow">QUESTIONS</div>
+        <h2>Frequently asked questions</h2>
+      </div>
+      <div class="faq fade-up">
+        <details>
+          <summary>What is Blindrop?</summary>
+          <p>Blindrop is a blind dating app. Once a day it pairs you with one real person for a short, timed conversation by text, voice call or blurred video. You can't see each other's photos or names. When time is up, you both privately choose Reveal or Pass, and profiles unlock only if you both choose Reveal.</p>
+        </details>
+        <details>
+          <summary>Is Blindrop free?</summary>
+          <p>Yes. Joining the daily Drop and talking to your match is free. Optional coins and subscriptions add extras such as more call time and extra features.</p>
+        </details>
+        <details>
+          <summary>How does the video call stay anonymous?</summary>
+          <p>Video Drops are real live calls with your camera on, but each person's video is heavily blurred on the other person's screen until you both choose Reveal.</p>
+        </details>
+        <details>
+          <summary>Is Blindrop safe?</summary>
+          <p>Blindrop is for adults 18 and over. Messages in a Drop are screened by automated moderation, you can report or block anyone with one tap, users can earn a selfie-verified badge, and your name and photos stay hidden unless you both reveal or become friends. Read our <a href="child-safety-standards/">Child Safety Standards</a>.</p>
+        </details>
+        <details>
+          <summary>What happens to the chat if we don't both reveal?</summary>
+          <p>If either person passes, the conversation ends and its messages are automatically deleted 24 hours after the Drop. Chats that were reported are kept for safety review.</p>
+        </details>
+        <details>
+          <summary>Where is Blindrop available?</summary>
+          <p>Blindrop is available on Android through Google Play and is launching city by city in India. You are matched with people in your city, or nationwide when your city is still filling up.</p>
+        </details>
+        <details>
+          <summary>How do I delete my Blindrop account?</summary>
+          <p>Open Settings in the app and tap Delete Account, or email <a href="mailto:support@blindrop.app">support@blindrop.app</a>. Full details are on the <a href="delete-account/">account deletion page</a>.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
   <!-- CTA -->
   <section class="cta" id="download">
     <div class="wrap">
@@ -552,11 +689,7 @@
       <h2 style="margin-top:18px;">Your city unlocks<br>when enough people show up.</h2>
       <p>Download Blindrop and turn on notifications — we'll tell you the moment your city goes live. Text, real voice calls, and blind video Drops are all ready from day one.</p>
       <div class="store-btns">
-        <a class="store-btn" href="#" aria-label="Download on the App Store">
-          <span class="store-icon"></span>
-          <span class="store-text"><small>Download on the</small>App Store</span>
-        </a>
-        <a class="store-btn" href="#" aria-label="Get it on Google Play">
+        <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.blindrop.app" aria-label="Get it on Google Play">
           <span class="store-icon"></span>
           <span class="store-text"><small>Get it on</small>Google Play</span>
         </a>
@@ -576,9 +709,12 @@
     <div class="foot-links">
       <a href="#how">How it works</a>
       <a href="#vibe">Vibe report</a>
+      <a href="#faq">FAQ</a>
       <a href="#download">Download</a>
       <a href="privacy-policy/">Privacy Policy</a>
       <a href="terms-and-conditions/">Terms & Conditions</a>
+      <a href="child-safety-standards/">Child Safety</a>
+      <a href="delete-account/">Delete Account</a>
     </div>
   </div>
   <div class="wrap" style="margin-top:22px;padding-top:18px;border-top:1px solid var(--line,#2a2a34);font-size:12.5px;line-height:1.7;color:var(--muted-2,#5c5a64);">

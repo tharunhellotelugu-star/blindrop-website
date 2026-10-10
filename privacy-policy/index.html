@@ -135,7 +135,7 @@
   <div class="wrap">
     <div class="eyebrow">Legal</div>
     <h1>Privacy Policy</h1>
-    <div class="updated">Last updated: 12 August 2026 &nbsp;·&nbsp; Effective date: 12 August 2026</div>
+    <div class="updated">Last updated: 4 October 2026 &nbsp;·&nbsp; Effective date: 4 October 2026</div>
     <p class="intro">Blindrop hides faces, not accountability. This policy explains, in plain language, what we collect when you use the Blindrop app and website, why we collect it, who we share it with, how long we keep it, and the controls you have — including what happens to a conversation the moment nobody hits "Reveal."</p>
 
     <div class="toc">
@@ -167,7 +167,7 @@
 
     <section class="block" id="scope">
       <h2><span class="num">02</span> Scope of this policy</h2>
-      <p>This policy covers information we collect through the Blindrop app, the blindrop.app website, customer support, and any related services. It does not cover third-party services we link to or integrate with, which have their own privacy policies — including Google Play, Daily.co/Agora, Firebase, and any AI providers we use, all listed in §8.</p>
+      <p>This policy covers information we collect through the Blindrop app, the blindrop.app website, customer support, and any related services. It does not cover third-party services we link to or integrate with, which have their own privacy policies — including Google Play, Daily.co, Firebase, Google AdMob, and the AI provider we use, all listed in §8.</p>
     </section>
 
     <section class="block" id="data-we-collect">
@@ -175,16 +175,17 @@
       <p>We collect the minimum needed to run a daily blind-matching product safely. Broadly, this falls into these categories:</p>
       <table>
         <tr><th>Category</th><th>Examples</th></tr>
-        <tr><td>Account &amp; verification</td><td>Phone number (verified by OTP), first name, age, gender, dating preference, city</td></tr>
+        <tr><td>Account</td><td>Phone number (verified by OTP) or your Google account email if you sign in with Google, first name, display name, age, gender, dating preference, city, state, languages, bio and interests</td></tr>
+        <tr><td>Photos &amp; verification</td><td>A profile photo and up to five gallery photos that you choose to upload. If you request the Verified badge, a live selfie that is compared with your profile photo by AI and deleted immediately after the check — only the result (verified or not) is kept</td></tr>
         <tr><td>Profile &amp; personality</td><td>Personality quiz answers, tone preference — used only to help the AI suggest better icebreakers</td></tr>
         <tr><td>Drop activity</td><td>Drop participation, anonymous session handle, Reveal/Pass decision, streak count, mode selected (text/voice/video)</td></tr>
         <tr><td>Conversation content</td><td>Text messages sent during a live Drop; audio/video stream data during a live voice or video call (not recorded — see §7)</td></tr>
         <tr><td>Post-Drop content (opt-in)</td><td>Vibe Report results, Reveal Reaction Clips, Drop Replay Cards — only if you choose to generate or share them</td></tr>
-        <tr><td>Payments</td><td>Subscription tier, purchase history, and billing status via Google Play Billing — Blindrop does not receive or store your card details</td></tr>
+        <tr><td>Payments</td><td>Subscription tier, coin balance and coin purchases, purchase history, and billing status via Google Play Billing and RevenueCat — Blindrop does not receive or store your card details</td></tr>
         <tr><td>Safety &amp; moderation</td><td>Reports you file or that are filed against you, block lists, panic-button events</td></tr>
-        <tr><td>Device &amp; usage</td><td>Device type, OS version, push-notification token, approximate city-level location for matching radius, app diagnostics and crash logs</td></tr>
+        <tr><td>Device &amp; usage</td><td>Device type, OS version, push-notification token, online status (last active time), the city you enter for matching, app diagnostics and crash logs, and your device's advertising ID (used by Google AdMob to show ads in the free tier)</td></tr>
       </table>
-      <p>We do not ask for your photo or your last name until a mutual Reveal happens, and we never make either mandatory for using the free tier of the Service.</p>
+      <p>We never ask for your last name. Your first name and photos are hidden from other users until you both choose Reveal in a Drop, or until you accept each other as friends. Before that, other users see only your display name, avatar and the profile details you choose to share.</p>
     </section>
 
     <section class="block" id="how-we-use">
@@ -196,10 +197,12 @@
         <li>To generate your Vibe Report, Drop Replay Cards, and reaction-clip features you opt into.</li>
         <li>To send Drop-time push notifications, streak reminders, and service updates.</li>
         <li>To process subscription and virtual-item purchases (Reveal Tokens, Boosted Drop, Squad Drop Pass, etc.).</li>
-        <li>To investigate reports, enforce our Community Guidelines, and keep the platform safe.</li>
-        <li>To fix bugs, improve matching quality, and understand aggregate product usage — never to build a public profile of you for advertising to third parties.</li>
+        <li>To investigate reports, enforce our Community Guidelines, and keep the platform safe — including automatically screening chat messages and uploaded photos for abuse (see §6).</li>
+        <li>To award the Verified badge by checking that your live selfie matches your profile photo (see §6).</li>
+        <li>To show ads to users without a subscription, through Google AdMob.</li>
+        <li>To fix bugs, improve matching quality, and understand aggregate product usage.</li>
       </ul>
-      <p>We do not sell your personal data. We do not use your Drop conversations to serve you third-party ads.</p>
+      <p>We do not sell your personal data. We do not use your Drop conversations or photos to serve you ads. Google AdMob may use your device's advertising ID to show ads; you can reset it or opt out of personalised ads in your Android settings (Settings › Google › Ads).</p>
     </section>
 
     <section class="block" id="live-drops">
@@ -207,14 +210,20 @@
       <p>During a live Drop your identity is hidden from the other participant, but never from us — every account is tied to a verified phone number so we can act on reports and enforce accountability.</p>
       <ul>
         <li><strong>Text Drops</strong> run over an encrypted, real-time channel. Messages are held only for the duration described in §9.</li>
-        <li><strong>Voice and Video Drops</strong> run through our real-time communications provider (Daily.co or Agora). <strong>Call recording is disabled by default on every room</strong> — we do not store an audio or video recording of your call. Video Drops apply a blur filter to the remote feed at the transport level.</li>
+        <li><strong>Voice and Video Drops</strong> run through our real-time communications provider, Daily.co. <strong>Call recording is disabled on every room</strong> — we do not store an audio or video recording of your call. In Video Drops each person's video is blurred on the other person's screen until you both choose Reveal.</li>
         <li>No photo, file, or link can be sent inside any live Drop, in any mode — this is enforced at the app level, not just a setting you can toggle.</li>
       </ul>
     </section>
 
     <section class="block" id="ai-processing">
       <h2><span class="num">06</span> AI processing</h2>
-      <p>Blindrop uses a third-party large language model provider (such as Google Gemini or Anthropic Claude) to power features like the AI icebreaker assist, Vibe Report generation, and Drop Replay Cards. When these features are active, the relevant conversation text is sent to that provider to generate a response or summary. These providers process the data under their own enterprise data-handling terms and do not use it to train models on our behalf without our agreement. AI assist suggestions are visible only to the person who is stuck — the other participant is never told AI was involved.</p>
+      <p>Blindrop uses Google's Gemini API, called from our servers, for the following:</p>
+      <ul>
+        <li><strong>Safety screening:</strong> every chat message and every uploaded photo is checked automatically for harassment, explicit content and similar abuse. Content that fails the check may be hidden or removed and can lead to a report being reviewed.</li>
+        <li><strong>Vibe Report:</strong> after a Drop, the conversation text is summarised into your private Vibe Report.</li>
+        <li><strong>Verified badge:</strong> if you request it, your live selfie and profile photo are compared to confirm they show the same person. The app also checks on your device that the selfie is live (for example, that you blink). The selfie is deleted right after the check.</li>
+      </ul>
+      <p>Only the content needed for each task is sent, and it is processed under Google's paid-API data terms, which do not allow Google to use it to train its models. Icebreaker suggestions are visible only to the person who asked for them — the other participant is never told one was used.</p>
     </section>
 
     <section class="block" id="reveal-and-deletion">
@@ -222,7 +231,8 @@
       <p>This is the core privacy mechanic of Blindrop, so we want to be explicit about it:</p>
       <ul>
         <li>If <strong>both</strong> participants tap Reveal, the chat becomes a permanent thread and both profiles unlock to each other. From this point the conversation is retained like a normal message thread until either user deletes it or their account.</li>
-        <li>If <strong>either</strong> participant taps Pass — or the Drop simply ends with no mutual Reveal — the session, the anonymous handles used, the chat transcript, and any call metadata are <strong>permanently deleted</strong>. Neither user is told who passed, and no "seen" record is kept.</li>
+        <li>If <strong>either</strong> participant taps Pass — or the Drop simply ends with no mutual Reveal — the chat transcript is <strong>permanently deleted</strong> 24 hours after the Drop ends (the delay gives a late Reveal decision time to count). Neither user is told who passed. We keep only a minimal record that the match took place, with no message content, so we can show your Vibe Report, streak and leaderboard standing.</li>
+        <li>Transcripts are kept if you and the other person are friends in the app, or if the conversation was reported or flagged by our safety screening — in that case it is kept as long as needed to review the report (see §9).</li>
         <li>Vibe Reports are shown to each user privately regardless of outcome and contain no personal data by design — they're safe to keep or share even when a Reveal didn't happen.</li>
       </ul>
     </section>
@@ -233,10 +243,13 @@
       <table>
         <tr><th>Vendor</th><th>Purpose</th></tr>
         <tr><td>Supabase</td><td>Database, authentication, and backend infrastructure</td></tr>
-        <tr><td>Daily.co / Agora</td><td>Real-time voice and video call transport for Voice/Video Drops</td></tr>
-        <tr><td>Firebase Cloud Messaging (Google)</td><td>Push notifications, including the daily Drop-time alert</td></tr>
-        <tr><td>Google Gemini / Anthropic Claude</td><td>AI icebreaker assist, Vibe Report and Drop Replay Card generation</td></tr>
-        <tr><td>Google Play Billing</td><td>Processing subscriptions and in-app purchases</td></tr>
+        <tr><td>Daily.co</td><td>Real-time voice and video call transport for Voice/Video Drops</td></tr>
+        <tr><td>Firebase (Google)</td><td>Phone-number OTP and Google sign-in, push notifications, crash reports (Crashlytics) and app-integrity checks (App Check)</td></tr>
+        <tr><td>Google Gemini API</td><td>Safety screening of messages and photos, Vibe Reports, and the Verified-badge selfie check (§6)</td></tr>
+        <tr><td>Google AdMob</td><td>Showing ads to users without a subscription</td></tr>
+        <tr><td>Google Play Billing &amp; RevenueCat</td><td>Processing subscriptions and coin purchases, and keeping your entitlements in sync</td></tr>
+        <tr><td>Sentry</td><td>Error monitoring for our servers and app</td></tr>
+        <tr><td>Google Drive</td><td>Storing copies of our database backups</td></tr>
       </table>
       <p>We may also disclose information if required by law, to protect the safety of our users, or to investigate fraud or abuse of the Service. If Blindrop is ever involved in a merger, acquisition, or asset sale, user data may be transferred as part of that transaction, subject to this policy.</p>
     </section>
@@ -244,7 +257,7 @@
     <section class="block" id="retention">
       <h2><span class="num">09</span> Data retention</h2>
       <ul>
-        <li><strong>No-Reveal sessions:</strong> deleted automatically per §7, typically within a short window after the Drop ends.</li>
+        <li><strong>No-Reveal chat transcripts:</strong> deleted automatically 24 hours after the Drop ends, per §7.</li>
         <li><strong>Revealed conversations:</strong> retained until you delete the thread or your account.</li>
         <li><strong>Account data:</strong> retained while your account is active, and for a limited period after deletion to comply with legal, tax, and fraud-prevention obligations.</li>
         <li><strong>Reports and safety records:</strong> retained longer than other data where needed to enforce bans and respond to legal requests.</li>
@@ -295,6 +308,7 @@
       <p>Questions about this policy, or requests relating to your data, can be sent to:</p>
       <p><strong>Privacy contact:</strong> support@blindrop.app</p>
       <p><strong>Operated by:</strong> <a href="https://tharuntechsolutions.in/" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">Tharun Tech Solutions</a> — <a href="https://tharuntechsolutions.in/" target="_blank" rel="noopener">https://tharuntechsolutions.in/</a></p>
+      <p><strong>Grievance Officer</strong> (under the Information Technology Rules, 2021 and the Digital Personal Data Protection Act, 2023): Sunil Samala, support@blindrop.app. We acknowledge grievances within 24 hours and aim to resolve them within 15 days.</p>
     </section>
   </div>
 </main>
